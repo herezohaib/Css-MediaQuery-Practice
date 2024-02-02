@@ -1,0 +1,27 @@
+/*h1{
+    color: blue;
+}
+*/
+.main{
+    width: 100 px;
+    height: 500px;
+    background-color: red;
+}
+@media only screen and (max-width: 800px)   {
+    .main {
+        background-color: blue;
+    }
+    
+}
+@media only screen and (max-width: 600px)   {
+    .main {
+        background-color: green;
+    }
+    
+}
+@media only screen and (max-width: 400px)   {
+    .main {
+        background-color: orange;
+    }
+    
+}
